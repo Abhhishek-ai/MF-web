@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgFarsan" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9A3412"/>
+      <stop offset="50%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="farsanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#C2410C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgFarsan)"/>
+  <circle cx="300" cy="225" r="210" fill="url(#farsanGlow)"/>
+  <g transform="translate(150, 70)">
+    <!-- Snack Bowl -->
+    <ellipse cx="150" cy="180" rx="130" ry="50" fill="#78350F"/>
+    <ellipse cx="150" cy="170" rx="120" ry="42" fill="#D97706"/>
+    <!-- Crispy papad / wafers / gathiya -->
+    <circle cx="110" cy="140" r="35" fill="#FDE047" stroke="#CA8A04" stroke-width="2"/>
+    <circle cx="180" cy="130" r="38" fill="#FEF08A" stroke="#EAB308" stroke-width="2"/>
+    <circle cx="140" cy="160" r="30" fill="#FACC15" stroke="#CA8A04" stroke-width="2"/>
+    <!-- Roasted chana -->
+    <circle cx="70" cy="180" r="10" fill="#92400E"/>
+    <circle cx="210" cy="170" r="9" fill="#78350F"/>
+    <circle cx="230" cy="185" r="11" fill="#92400E"/>
+  </g>
+  <!-- Floating snacks -->
+  <circle cx="90" cy="110" r="18" fill="#FDE047" opacity="0.6"/>
+  <circle cx="500" cy="140" r="15" fill="#FEF08A" opacity="0.7"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Roasted Snacks &amp; Farsan</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#FDE047" text-anchor="end">Papad • Chana • Khakhra</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgBiscuit" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#831843"/>
+      <stop offset="50%" stop-color="#BE185D"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <radialGradient id="biscuitGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#BE185D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgBiscuit)"/>
+  <circle cx="300" cy="225" r="210" fill="url(#biscuitGlow)"/>
+  <g transform="translate(150, 80)">
+    <!-- Golden Biscuit Stack -->
+    <rect x="70" y="110" width="160" height="85" rx="14" fill="#FBBF24" stroke="#D97706" stroke-width="4"/>
+    <!-- Biscuit texture dots -->
+    <circle cx="100" cy="135" r="4" fill="#D97706"/>
+    <circle cx="125" cy="135" r="4" fill="#D97706"/>
+    <circle cx="150" cy="135" r="4" fill="#D97706"/>
+    <circle cx="175" cy="135" r="4" fill="#D97706"/>
+    <circle cx="200" cy="135" r="4" fill="#D97706"/>
+    <circle cx="100" cy="170" r="4" fill="#D97706"/>
+    <circle cx="125" cy="170" r="4" fill="#D97706"/>
+    <circle cx="150" cy="170" r="4" fill="#D97706"/>
+    <circle cx="175" cy="170" r="4" fill="#D97706"/>
+    <circle cx="200" cy="170" r="4" fill="#D97706"/>
+    <text x="150" y="156" font-family="-apple-system, sans-serif" font-weight="900" font-size="14" fill="#92400E" text-anchor="middle" letter-spacing="1">GLUCOSE</text>
+    <!-- Butter Cookie behind -->
+    <circle cx="60" cy="90" r="35" fill="#FDE047" stroke="#CA8A04" stroke-width="3"/>
+    <circle cx="60" cy="90" r="10" fill="#CA8A04" opacity="0.3"/>
+  </g>
+  <!-- Floating crumbs -->
+  <circle cx="100" cy="130" r="10" fill="#FEF08A" opacity="0.6"/>
+  <circle cx="490" cy="160" r="14" fill="#FBBF24" opacity="0.7"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Biscuits, Rusks &amp; Cookies</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#FDA4AF" text-anchor="end">Parle-G • Bourbon • Marie</text>
+</svg>

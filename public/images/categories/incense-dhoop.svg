@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgIncense" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="50%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="smokeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9D5FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgIncense)"/>
+  <circle cx="300" cy="200" r="180" fill="url(#smokeGlow)"/>
+  <g transform="translate(180, 60)">
+    <!-- Rising fragrant smoke -->
+    <path d="M120 120 Q100 80 140 40 Q160 10 130 -10" stroke="#E9D5FF" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M135 120 Q160 70 120 30 Q100 0 140 -20" stroke="#F3E8FF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <!-- Glowing ember tips -->
+    <circle cx="120" cy="120" r="4" fill="#EF4444"/>
+    <circle cx="135" cy="120" r="4" fill="#F59E0B"/>
+    <circle cx="105" cy="125" r="3.5" fill="#EF4444"/>
+    <!-- Agarbatti sticks -->
+    <line x1="120" y1="120" x2="120" y2="240" stroke="#78350F" stroke-width="3"/>
+    <line x1="135" y1="120" x2="145" y2="240" stroke="#78350F" stroke-width="3"/>
+    <line x1="105" y1="125" x2="95" y2="240" stroke="#78350F" stroke-width="3"/>
+    <!-- Brass Agarbatti stand -->
+    <ellipse cx="120" cy="240" rx="60" ry="18" fill="#EAB308"/>
+    <ellipse cx="120" cy="235" rx="50" ry="14" fill="#FEF08A"/>
+  </g>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Aromatic Agarbatti &amp; Dhoop</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#E9D5FF" text-anchor="end">Cycle • Zed Black • Camphor</text>
+</svg>

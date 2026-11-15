@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgWood" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#451A03"/>
+      <stop offset="50%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <radialGradient id="woodGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#78350F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgWood)"/>
+  <circle cx="300" cy="200" r="180" fill="url(#woodGlow)"/>
+  <g transform="translate(180, 50)">
+    <!-- Temple Shikhar Dome -->
+    <path d="M120 10 L150 70 L90 70 Z" fill="#F59E0B"/>
+    <circle cx="120" cy="8" r="6" fill="#FDE047"/>
+    <!-- Temple Roof -->
+    <rect x="50" y="70" width="140" height="20" rx="4" fill="#B45309"/>
+    <!-- Carved Pillars -->
+    <rect x="65" y="90" width="16" height="110" rx="3" fill="#D97706"/>
+    <rect x="159" y="90" width="16" height="110" rx="3" fill="#D97706"/>
+    <!-- Back wall & Sanctum -->
+    <rect x="85" y="90" width="70" height="110" fill="#78350F"/>
+    <circle cx="120" cy="140" r="22" fill="#FDE047" opacity="0.3"/>
+    <!-- Base Platform -->
+    <rect x="40" y="200" width="160" height="35" rx="6" fill="#B45309"/>
+    <!-- Drawer handle -->
+    <rect x="105" y="215" width="30" height="6" rx="3" fill="#FDE047"/>
+  </g>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Wooden Temples &amp; Handicrafts</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#FDE047" text-anchor="end">Sheesham Wood • Hand Carved</text>
+</svg>

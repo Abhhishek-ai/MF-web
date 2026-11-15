@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgSpices" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C2D12"/>
+      <stop offset="50%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <radialGradient id="spiceGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#C2410C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgSpices)"/>
+  <circle cx="300" cy="225" r="210" fill="url(#spiceGlow)"/>
+  <!-- Bowls with spices -->
+  <g transform="translate(140, 80)">
+    <!-- Main Turmeric Bowl -->
+    <ellipse cx="160" cy="180" rx="110" ry="40" fill="#78350F"/>
+    <ellipse cx="160" cy="170" rx="100" ry="34" fill="#F59E0B"/>
+    <ellipse cx="160" cy="165" rx="85" ry="25" fill="#FCD34D"/>
+    <!-- Red chilli pods -->
+    <path d="M70 120 C90 90, 110 140, 130 150 C110 155, 90 145, 70 120 Z" fill="#DC2626"/>
+    <path d="M70 120 L60 110" stroke="#15803D" stroke-width="4" stroke-linecap="round"/>
+    <!-- Star Anise -->
+    <path d="M250 140 L260 115 L265 140 L285 140 L270 155 L280 175 L260 160 L240 175 L250 155 L235 140 Z" fill="#451A03"/>
+    <!-- Cardamom Pods -->
+    <ellipse cx="100" cy="200" rx="14" ry="8" transform="rotate(-30 100 200)" fill="#65A30D"/>
+    <ellipse cx="220" cy="195" rx="16" ry="9" transform="rotate(25 220 195)" fill="#4D7C0F"/>
+  </g>
+  <!-- Floating spice dust -->
+  <circle cx="90" cy="100" r="14" fill="#FDE047" opacity="0.6"/>
+  <circle cx="500" cy="120" r="12" fill="#EF4444" opacity="0.5"/>
+  <circle cx="480" cy="300" r="16" fill="#F59E0B" opacity="0.6"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Whole &amp; Ground Spices</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#FDE047" text-anchor="end">Turmeric • Chilli • Cumin</text>
+</svg>

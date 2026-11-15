@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgBrass" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#312E81"/>
+      <stop offset="50%" stop-color="#3730A3"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <radialGradient id="diyaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgBrass)"/>
+  <circle cx="300" cy="200" r="180" fill="url(#diyaGlow)"/>
+  <g transform="translate(170, 70)">
+    <!-- Golden Flame -->
+    <path d="M130 50 C140 20 120 10 130 0 C140 10 150 20 130 50 Z" fill="#EF4444"/>
+    <path d="M130 45 C135 25 125 18 130 10 C135 18 140 25 130 45 Z" fill="#FACC15"/>
+    <!-- Diya Base -->
+    <ellipse cx="130" cy="110" rx="90" ry="30" fill="#CA8A04"/>
+    <ellipse cx="130" cy="100" rx="80" ry="24" fill="#EAB308"/>
+    <ellipse cx="130" cy="95" rx="65" ry="18" fill="#FEF08A"/>
+    <!-- Brass Stand Pedestal -->
+    <path d="M100 130 L160 130 L170 200 L90 200 Z" fill="#CA8A04"/>
+    <ellipse cx="130" cy="200" rx="60" ry="15" fill="#A16207"/>
+    <!-- Engraved lines -->
+    <ellipse cx="130" cy="150" rx="35" ry="6" stroke="#FEF08A" stroke-width="2" fill="none"/>
+    <ellipse cx="130" cy="175" rx="45" ry="8" stroke="#FEF08A" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Sparkles -->
+  <path d="M100 120 L105 105 L110 120 L125 125 L110 130 L105 145 L100 130 L85 125 Z" fill="#FDE047"/>
+  <path d="M490 140 L494 128 L498 140 L510 144 L498 148 L494 160 L490 148 L478 144 Z" fill="#FEF08A"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Pure Brassware &amp; Pooja Diyas</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#FDE047" text-anchor="end">Samai • Aarti Thali • Bells</text>
+</svg>

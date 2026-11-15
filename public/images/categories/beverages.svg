@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgBev" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="50%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="bevGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BAE6FD" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgBev)"/>
+  <circle cx="300" cy="225" r="210" fill="url(#bevGlow)"/>
+  <g transform="translate(170, 70)">
+    <!-- Traditional Indian Chai Glass -->
+    <path d="M50 80 L70 210 L130 210 L150 80 Z" fill="#FEF3C7" opacity="0.4"/>
+    <path d="M55 110 L70 205 L130 205 L145 110 Z" fill="#92400E"/>
+    <!-- Steam swirls -->
+    <path d="M85 60 Q75 40 90 20" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M110 65 Q125 45 105 25" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <!-- Cold Beverage Bottle (Sharbat / Nimbooz) -->
+    <rect x="170" y="100" width="60" height="110" rx="10" fill="#16A34A"/>
+    <rect x="185" y="65" width="30" height="35" rx="4" fill="#16A34A"/>
+    <rect x="180" y="55" width="40" height="12" rx="3" fill="#FACC15"/>
+    <rect x="172" y="130" width="56" height="45" rx="4" fill="#FFFFFF"/>
+    <text x="200" y="150" font-family="-apple-system, sans-serif" font-weight="900" font-size="10" fill="#16A34A" text-anchor="middle">LEMON</text>
+    <text x="200" y="165" font-family="-apple-system, sans-serif" font-weight="800" font-size="8" fill="#0B1B3F" text-anchor="middle">SHARBAT</text>
+  </g>
+  <!-- Floating water droplets -->
+  <circle cx="90" cy="120" r="12" fill="#E0F2FE" opacity="0.7"/>
+  <circle cx="510" cy="140" r="16" fill="#BAE6FD" opacity="0.8"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Beverages, Tea &amp; Syrups</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#38BDF8" text-anchor="end">Wagh Bakri • Rooh Afza • Juices</text>
+</svg>

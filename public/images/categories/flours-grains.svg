@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgFlours" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="50%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <radialGradient id="grainGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgFlours)"/>
+  <circle cx="300" cy="225" r="210" fill="url(#grainGlow)"/>
+  <g transform="translate(160, 80)">
+    <!-- Wheat Ears -->
+    <path d="M50 180 Q80 100 120 40" stroke="#FDE047" stroke-width="3" fill="none"/>
+    <ellipse cx="115" cy="50" rx="10" ry="5" transform="rotate(-30 115 50)" fill="#FEF08A"/>
+    <ellipse cx="100" cy="70" rx="10" ry="5" transform="rotate(30 100 70)" fill="#FDE047"/>
+    <ellipse cx="90" cy="95" rx="10" ry="5" transform="rotate(-30 90 95)" fill="#FEF08A"/>
+    <!-- Flour Sack -->
+    <path d="M100 230 C90 140 100 80 180 75 C260 80 270 140 260 230 Z" fill="#F8FAFC"/>
+    <ellipse cx="180" cy="80" rx="75" ry="18" fill="#E2E8F0"/>
+    <!-- Sack Branding -->
+    <rect x="125" y="120" width="110" height="70" rx="8" fill="#1B4FD8"/>
+    <text x="180" y="145" font-family="-apple-system, sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle">MEGH</text>
+    <text x="180" y="165" font-family="-apple-system, sans-serif" font-weight="800" font-size="11" fill="#9CCB3B" text-anchor="middle">SHARBATI AATA</text>
+    <text x="180" y="180" font-family="-apple-system, sans-serif" font-weight="600" font-size="8.5" fill="#FFFFFF" text-anchor="middle">100% STONE GROUND</text>
+  </g>
+  <!-- Floating grain flakes -->
+  <circle cx="90" cy="140" r="12" fill="#FEF08A" opacity="0.6"/>
+  <circle cx="510" cy="180" r="14" fill="#FEF08A" opacity="0.7"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Flours, Grains &amp; Basmati Rice</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#FDE047" text-anchor="end">Chakki Aata • Besan • Poha</text>
+</svg>

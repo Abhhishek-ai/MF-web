@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="bgPulses" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#064E3B"/>
+      <stop offset="50%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="pulseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgPulses)"/>
+  <circle cx="300" cy="225" r="200" fill="url(#pulseGlow)"/>
+  <!-- Decorative burlap sack & grain bowl -->
+  <g transform="translate(150, 90)">
+    <!-- Jute sack outline -->
+    <path d="M70 240 C50 140, 60 70, 150 60 C240 70, 250 140, 230 240 Z" fill="#D97706" opacity="0.9"/>
+    <ellipse cx="150" cy="65" rx="80" ry="25" fill="#B45309"/>
+    <!-- Golden lentils overflowing -->
+    <ellipse cx="150" cy="60" rx="72" ry="20" fill="#FACC15"/>
+    <circle cx="130" cy="55" r="10" fill="#FEF08A"/>
+    <circle cx="160" cy="62" r="12" fill="#EAB308"/>
+    <circle cx="175" cy="52" r="8" fill="#FDE047"/>
+    <circle cx="115" cy="65" r="9" fill="#EAB308"/>
+    <!-- Sack rope tie -->
+    <ellipse cx="150" cy="90" rx="75" ry="10" stroke="#78350F" stroke-width="4" fill="none"/>
+    <!-- Badge on sack -->
+    <rect x="95" y="130" width="110" height="60" rx="8" fill="#FFFFFF" opacity="0.95"/>
+    <text x="150" y="152" font-family="-apple-system, sans-serif" font-weight="900" font-size="13" fill="#047857" text-anchor="middle" letter-spacing="1">MEGH FOODS</text>
+    <text x="150" y="172" font-family="-apple-system, sans-serif" font-weight="800" font-size="11" fill="#B45309" text-anchor="middle">SORTEX TOOR DAL</text>
+  </g>
+  <!-- Floating grain seeds -->
+  <circle cx="100" cy="120" r="12" fill="#FACC15" opacity="0.7"/>
+  <circle cx="480" cy="140" r="15" fill="#FEF08A" opacity="0.8"/>
+  <circle cx="490" cy="280" r="10" fill="#FACC15" opacity="0.6"/>
+  <circle cx="90" cy="320" r="14" fill="#FDE047" opacity="0.5"/>
+  <!-- Title label overlay -->
+  <rect x="40" y="360" width="520" height="60" rx="14" fill="#0B1B3F" fill-opacity="0.85"/>
+  <text x="70" y="398" font-family="-apple-system, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Export Sortex Pulses &amp; Dal</text>
+  <text x="530" y="398" font-family="-apple-system, sans-serif" font-weight="600" font-size="14" fill="#9CCB3B" text-anchor="end">Toor • Moong • Chana</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "flags": {
+    "7up-nimbooz": {
+      "is_active": true,
+      "is_featured": false
+    },
+    "7up-nimbooz-lemon-btl": {
+      "is_active": true
+    },
+    "alpenliebe-creamfills": {
+      "is_active": true
+    },
+    "aata-maker-110w": {
+      "is_active": true
+    }
+  },
+  "deleted": [],
+  "duplicated": [],
+  "saved": {}
+}
